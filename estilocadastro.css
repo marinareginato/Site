@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Playfair+Display:ital,wght@1,500&family=Righteous&display=swap');
+
+body{
+	background:linear-gradient(180deg, #FF91FF 0%, rgba(251, 66, 251, 0) 100%);
+	mix-blend-mode: normal;
+	width: auto;
+	height: 520 px;
+    font-family: 'Righteous', cursive;
+    font-size: 1em;
+	font-weigth: bold;
+    color: 	#FFEBCD;
+    justify-content: center;
+	margin-left: 36%;
+	margin-top: 2%;
+	margin-right: 36%;
+
+}
+.grupo{
+
+	background-color: #DA70D6;
+	border-width:medium;
+ 	border-style:double;
+	border-color:#191970;
+	border-radius: 6px;
+}
+div{
+	border-width: medium;
+  	border-style: solid;
+  	border-color: transparent;
+	border-spacing: 15pt;
+	padding: 1em;
+	font-weigth: bold;
+	background-color: #EE82EE;
+	border-radius: 6px;
+}
+
+button,input, select{
+	background-color: transparent;
+	border-color: #191970;
+	cursor:pointer;
+	border-radius: 5px;
+	border-width: medium;
+	font-weigth: bold;
+
+}
+
+button{
+	margin-left: 40%;
+	margin-top: 2%;
+}
+h1{
+	margin-left: 25%;
+	margin-top: 2%;
+}

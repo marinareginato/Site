@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=Playfair+Display:ital,wght@1,500&family=Righteous&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing: border-box;
+}
+
+
+body{
+	background:linear-gradient(180deg, #FF91FF 0%, rgba(251, 66, 251, 0) 100%);
+	mix-blend-mode: normal;
+	font-size: 100%;
+	font-family: 'Righteous', cursive;
+}
+
+.cabecalho{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+}
+
+.cabecalho-img{
+	height: 68px;
+}
+
+.cabecalho-menu{
+	display:flex;
+	gap: 32px;
+
+}
+
+button{
+    border: none;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .2s;
+	padding: 13px;
+	background-color: transparent;
+	outline: none;
+	color: #FFEBCD;
+	font-weight:300;
+	font-size: 18px;
+}
+
+.btn:hover{
+	background-color: #FFC0CB;
+}
+
+.principal{
+	border-top: 0.4px solid #FFEBCD;
+	margin-bottom: 48px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+
+
+}
+.frases{
+	display:flex;
+	gap: 32px;
+	flex-direction: column;
+	align-items: center;
+
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	color: #8B0000;
+	font-weight:500;
+	font-size: 64px;
+}
+.destaque{
+	font-family: 'Cormorant Upright', serif;
+	color: #EE0000;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-weight:300;
+	font-size: 45px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.butao{
+	border: none;
+    decoration: none;
+    cursor: pointer;
+    transition: background .2s;
+	background-color: #FFC0CB;
+	outline: none;
+	Width:185px;
+	Height:67px;
+	border-radius:20px;
+	text-color: #FFFFFF;
+	font-family: 'Righteous', cursive;
+	font-size: 30px;
+	font-weight:200px;
+
+}
+.butao:hover{
+	background-color: transparent;
+	color: #8B0000;
+}
+
+
+
+
+
+
+
